@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Célébration de l'Indépendance du Togo</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="main-nav">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="img/logo.png" alt="logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#accueil" class="active">Accueil</a></li>
+                <li><a href="#histoire">Histoire</a></li>
+                <li><a href="#culture">Culture</a></li>
+                <li><a href="#galerie">Galerie</a></li>
+                <li><a href="#message">Message</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Section Accueil -->
+    <section id="accueil" class="section">
+        <div class="hero">
+            <div class="hero-content">
+                <h1 class="animate__animated animate__fadeIn">Bonne Fête de l'Indépendance du Togo!</h1>
+                <div class="date animate__animated animate__fadeIn animate__delay-1s">27 Avril 2025</div>
+                <div class="anniversary animate__animated animate__fadeIn animate__delay-2s">65ème Anniversaire</div>
+                <div class="countdown" id="countdown">
+                    <div class="time-block">
+                        <span id="days">00</span>
+                        <p>Jours</p>
+                    </div>
+                    <div class="time-block">
+                        <span id="hours">00</span>
+                        <p>Heures</p>
+                    </div>
+                    <div class="time-block">
+                        <span id="minutes">00</span>
+                        <p>Minutes</p>
+                    </div>
+                    <div class="time-block">
+                        <span id="seconds">00</span>
+                        <p>Secondes</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="flag-showcase">
+                <div class="togo-flag animate__animated animate__fadeInUp">
+                    <div class="flag-stripe green"></div>
+                    <div class="flag-stripe yellow"></div>
+                    <div class="flag-stripe green"></div>
+                    <div class="flag-stripe yellow"></div>
+                    <div class="flag-stripe green"></div>
+                    <div class="flag-star">
+                        <div class="star">★</div>
+                    </div>
+                </div>
+                <div class="flag-info">
+                    <h2>Le Drapeau National</h2>
+                    <p><strong>Symbolisme:</strong></p>
+                    <ul>
+                        <li><span class="color-box green"></span> <strong>Vert:</strong> Représente l'espoir, la fertilité et l'agriculture</li>
+                        <li><span class="color-box yellow"></span> <strong>Jaune:</strong> Symbolise les ressources minérales du pays</li>
+                        <li><span class="color-box red"></span> <strong>Rouge:</strong> Évoque le sang versé pour l'indépendance</li>
+                        <li><span class="color-box white">★</span> <strong>Étoile blanche:</strong> Symbolise la pureté, la dignité et l'unité nationale</li>
+                    </ul>
+                    <button class="info-button" id="flag-button">En savoir plus</button>
+                </div>
+            </div>
+            
+            <div class="facts-card">
+                <h2>Le Togo en bref</h2>
+                <div class="fact-grid">
+                    <div class="fact">
+                        <i class="fas fa-calendar-day"></i>
+                        <h3>Indépendance</h3>
+                        <p>27 avril 1960</p>
+                    </div>
+                    <div class="fact">
+                        <i class="fas fa-city"></i>
+                        <h3>Capitale</h3>
+                        <p>Lomé</p>
+                    </div>
+                    <div class="fact">
+                        <i class="fas fa-language"></i>
+                        <h3>Langue officielle</h3>
+                        <p>Français</p>
+                    </div>
+                    <div class="fact">
+                        <i class="fas fa-quote-right"></i>
+                        <h3>Devise</h3>
+                        <p>"Travail, Liberté, Patrie"</p>
+                    </div>
+                    <div class="fact">
+                        <i class="fas fa-map"></i>
+                        <h3>Superficie</h3>
+                        <p>56 785 km²</p>
+                    </div>
+                    <div class="fact">
+                        <i class="fas fa-users"></i>
+                        <h3>Population</h3>
+                        <p>~8.5 millions</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Histoire -->
+    <section id="histoire" class="section">
+        <div class="container">
+            <h2 class="section-title">L'histoire de l'indépendance</h2>
+            <div class="timeline">
+                <div class="timeline-item left">
+                    <div class="timeline-content">
+                        <h3>1884-1914</h3>
+                        <p>Le Togo devient une colonie allemande connue sous le nom de "Togoland".</p>
+                    </div>
+                </div>
+                <div class="timeline-item right">
+                    <div class="timeline-content">
+                        <h3>1914-1919</h3>
+                        <p>Après la Première Guerre mondiale, le territoire est divisé entre la France et le Royaume-Uni.</p>
+                    </div>
+                </div>
+                <div class="timeline-item left">
+                    <div class="timeline-content">
+                        <h3>1946</h3>
+                        <p>Le Togo français devient un territoire sous tutelle des Nations Unies, administré par la France.</p>
+                    </div>
+                </div>
+                <div class="timeline-item right">
+                    <div class="timeline-content">
+                        <h3>1956</h3>
+                        <p>Le Togo britannique vote pour rejoindre le Ghana.</p>
+                    </div>
+                </div>
+                <div class="timeline-item left">
+                    <div class="timeline-content">
+                        <h3>1958</h3>
+                        <p>Le Togo français devient une république autonome au sein de l'Union française.</p>
+                    </div>
+                </div>
+                <div class="timeline-item right highlight">
+                    <div class="timeline-content">
+                        <h3>27 avril 1960</h3>
+                        <p>Sous la direction de Sylvanus Olympio, le Togo obtient son indépendance complète de la France.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="history-detail">
+                <div class="leader-card">
+                    <img src="img/Sylvanus.jpg" alt="Sylvanus Olympio" class="leader-image">
+                    <div class="leader-info">
+                        <h3>Sylvanus Olympio</h3>
+                        <p>Premier Président du Togo</p>
+                        <p>(1902-1963)</p>
+                    </div>
+                </div>
+                <div class="history-text">
+                    <h3>La lutte pour l'indépendance</h3>
+                    <p>Le premier président du Togo indépendant, Sylvanus Olympio, a joué un rôle crucial dans la lutte pour l'indépendance. Diplômé de la London School of Economics, il a utilisé ses compétences diplomatiques pour négocier l'indépendance avec la France.</p>
+                    
+                    <p>Après la Seconde Guerre mondiale, le mouvement nationaliste togolais s'est développé rapidement. Le Comité de l'Unité Togolaise (CUT), dirigé par Olympio, est devenu une force politique majeure plaidant pour l'indépendance.</p>
+                    
+                    <p>L'indépendance du Togo a été le résultat d'années de mobilisation politique, de manifestations pacifiques et de négociations diplomatiques. Le 27 avril 1960, lors d'une cérémonie solennelle à Lomé, le drapeau français a été abaissé et le drapeau togolais hissé pour la première fois, marquant la naissance d'une nouvelle nation africaine indépendante.</p>
+                    
+                    <div class="quote">
+                        <blockquote>
+                            "L'indépendance n'est pas une fin en soi, mais le début d'un long chemin vers le développement et la prospérité de notre nation."
+                        </blockquote>
+                        <cite>- Sylvanus Olympio</cite>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Culture -->
+    <section id="culture" class="section">
+        <div class="container">
+            <h2 class="section-title">Richesse culturelle</h2>
+            <div class="culture-grid">
+                <div class="culture-card" id="card-traditions">
+                    <div class="card-icon"><i class="fas fa-drum"></i></div>
+                    <h3>Traditions</h3>
+                    <p>Découvrez les riches traditions togolaises, des danses traditionnelles aux cérémonies ancestrales.</p>
+                </div>
+                <div class="culture-card" id="card-cuisine">
+                    <div class="card-icon"><i class="fas fa-utensils"></i></div>
+                    <h3>Cuisine</h3>
+                    <p>Savourez les délices culinaires comme le fufu, l'akumé et les sauces d'arachide épicées.</p>
+                </div>
+                <div class="culture-card" id="card-artisanat">
+                    <div class="card-icon"><i class="fas fa-paint-brush"></i></div>
+                    <h3>Artisanat</h3>
+                    <p>Admirez les textiles colorés, les sculptures sur bois et les perles traditionnelles.</p>
+                </div>
+                <div class="culture-card" id="card-musique">
+                    <div class="card-icon"><i class="fas fa-music"></i></div>
+                    <h3>Musique</h3>
+                    <p>Vibrez au rythme des percussions et des mélodies qui racontent l'histoire du Togo.</p>
+                </div>
+            </div>
+            
+            <div class="culture-detail" id="culture-detail">
+                <h3>Cliquez sur une catégorie pour découvrir plus</h3>
+                <div class="detail-content">
+                    <img src="img/culture.jpg" alt="Culture togolaise" class="detail-image">
+                    <div class="detail-text">
+                        <p>Sélectionnez une catégorie culturelle ci-dessus pour explorer la richesse du patrimoine togolais.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Galerie -->
+    <section id="galerie" class="section">
+        <div class="container">
+            <h2 class="section-title">Galerie de photos</h2>
+            <div class="gallery-filter">
+                <button class="filter-btn active" data-filter="all">Tout</button>
+                <button class="filter-btn" data-filter="celebrations">Célébrations</button>
+                <button class="filter-btn" data-filter="landscapes">Paysages</button>
+                <button class="filter-btn" data-filter="people">Personnes</button>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item celebrations" data-category="celebrations">
+                    <img src="img/faure.jpg" alt="Célébration de l'indépendance">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>Fête de l'indépendance à Lomé</h3>
+                            <p>Célébrations sur la place de l'Indépendance</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item landscapes" data-category="landscapes">
+                    <img src="img/agou.jpg" alt="Mont Agou">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>Mont Agou</h3>
+                            <p>Le point culminant du Togo</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item people" data-category="people">
+                    <img src="img/danse.jpg" alt="Danse traditionnelle">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>Danseurs traditionnels</h3>
+                            <p>Performance lors des festivités</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item celebrations" data-category="celebrations">
+                    <img src="img/défiléMilitaire.jpg" alt="Parade militaire">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>Défilé militaire</h3>
+                            <p>Commémoration annuelle</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item landscapes" data-category="landscapes">
+                    <img src="img/plage.jpg" alt="Plage de Lomé">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>Côte togolaise</h3>
+                            <p>Les magnifiques plages du sud</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-item people" data-category="people">
+                    <img src="img/menusier.jpg" alt="Artisans togolais">
+                    <div class="gallery-overlay">
+                        <div class="overlay-content">
+                            <h3>Artisans locaux</h3>
+                            <p>Transmission du savoir-faire traditionnel</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal" id="gallery-modal">
+                <span class="close-modal">&times;</span>
+                <img class="modal-content" id="modal-img">
+                <div class="modal-caption" id="modal-caption"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Message -->
+    <section id="message" class="section">
+        <div class="container">
+            <h2 class="section-title">Laissez un message</h2>
+            <div class="message-container">
+                <div class="message-form">
+                    <h3>Partagez vos vœux pour l'indépendance</h3>
+                    <form id="wishes-form">
+                        <div class="form-group">
+                            <label for="name">Votre nom</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="wish">Votre message</label>
+                            <textarea id="wish" name="wish" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Envoyer</button>
+                    </form>
+                </div>
+                <div class="messages-display">
+                    <h3>Messages de célébration</h3>
+                    <div class="wishes-container" id="wishes-container">
+                        <div class="wish-card">
+                            <div class="wish-author">Kofi Amouzou</div>
+                            <p class="wish-text">Joyeuse fête de l'indépendance à tous les Togolais! Que notre nation continue de prospérer dans la paix et l'unité.</p>
+                        </div>
+                        <div class="wish-card">
+                            <div class="wish-author">Ama Kodjo</div>
+                            <p class="wish-text">65 ans d'indépendance, 65 ans de fierté nationale. Vive le Togo libre!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    
+                    <span>Célébration de l'Indépendance du Togo</span>
+                </div>
+                <div class="social-icons">
+                    <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-text">
+                <p>Créé avec fierté pour la célébration du 65ème anniversaire de l'indépendance du Togo - 2025</p>
+                <button id="back-to-top" title="Retour en haut"><i class="fas fa-arrow-up"></i></button>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
